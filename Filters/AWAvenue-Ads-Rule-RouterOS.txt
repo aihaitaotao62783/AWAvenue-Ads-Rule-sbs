@@ -2,8 +2,8 @@
 !--------------------------------------
 !Total lines: 1790
 !Version: 1.6.9-release
-!Update time: 2026-04-07 20:55:56 UTC+8
-!Update content: add domain #206
+!Update time: 2026-05-24 22:11:11 UTC+8
+!Update content: fix #209
 
 !Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 !License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
@@ -241,6 +241,8 @@ ip dns static add address=240.0.0.1 name=adsfileretry.service.kugou.com
 ip dns static add address=:: name=adsfileretry.service.kugou.com
 ip dns static add address=240.0.0.1 name=adsfs-sdkconfig.heytapimage.com
 ip dns static add address=:: name=adsfs-sdkconfig.heytapimage.com
+ip dns static add address=240.0.0.1 name=adsfs.heytapimage.com
+ip dns static add address=:: name=adsfs.heytapimage.com
 ip dns static add address=240.0.0.1 name=adsfs.oppomobile.com
 ip dns static add address=:: name=adsfs.oppomobile.com
 ip dns static add address=240.0.0.1 name=adslvfile.qq.com
@@ -677,8 +679,6 @@ ip dns static add address=240.0.0.1 name=download.changhong.upgrade2.huan.tv
 ip dns static add address=:: name=download.changhong.upgrade2.huan.tv
 ip dns static add address=240.0.0.1 name=downloadxml.changhong.upgrade2.huan.tv
 ip dns static add address=:: name=downloadxml.changhong.upgrade2.huan.tv
-ip dns static add address=240.0.0.1 name=drcn-weather.cloud.huawei.com
-ip dns static add address=:: name=drcn-weather.cloud.huawei.com
 ip dns static add address=240.0.0.1 name=dsp-x.jd.com
 ip dns static add address=:: name=dsp-x.jd.com
 ip dns static add address=240.0.0.1 name=dsp.fcbox.com

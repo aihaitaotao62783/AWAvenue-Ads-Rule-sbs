@@ -125,6 +125,7 @@ full:adsfile.qq.com
 full:adsfilebssdlbig.ali.kugou.com
 full:adsfileretry.service.kugou.com
 full:adsfs-sdkconfig.heytapimage.com
+full:adsfs.heytapimage.com
 full:adsfs.oppomobile.com
 full:adslvfile.qq.com
 full:adsmart.konka.com
@@ -343,7 +344,6 @@ full:domain.aishengji.com
 full:doubleclick-cn.net
 full:download.changhong.upgrade2.huan.tv
 full:downloadxml.changhong.upgrade2.huan.tv
-full:drcn-weather.cloud.huawei.com
 full:dsp-x.jd.com
 full:dsp.fcbox.com
 full:dualstack-logs.amap.com
