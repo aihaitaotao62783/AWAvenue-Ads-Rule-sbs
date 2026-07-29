@@ -1,9 +1,9 @@
 #Title: AWAvenue Ads Rule
 #--------------------------------------
-#Total lines: 905
-#Version: 1.6.9-release
-#Update time: 2026-06-15 21:32:00 UTC+8
-#Update content: 移除一些不应当被拦截的字节域名
+#Total lines: 903
+#Version: 1.7.6-release
+#Update time: 2026-07-27 01:45:52 UTC+8
+#Update content: 规则分类重构：拆分广告/隐私/不受欢迎三类规则源，新增Only.Ads/No.Privacy/No.Unwelcome构建变体；新增拦截校园纸条开屏广告，fix #210
 
 #Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 #License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
@@ -85,6 +85,7 @@ DOMAIN,ads-sg.tiktok.com,reject
 DOMAIN,ads-video-al.xhscdn.com,reject
 DOMAIN,ads-video-qc.xhscdn.com,reject
 DOMAIN,ads.95516.com,reject
+DOMAIN,ads.adfunlink.com,reject
 DOMAIN,ads.auctions.yahoo.com,reject
 DOMAIN,ads.cup.com.cn,reject
 DOMAIN,ads.google.cn,reject
@@ -142,6 +143,7 @@ DOMAIN,adstudio.spotify.com,reject
 DOMAIN,adtago.s3.amazonaws.com,reject
 DOMAIN,adtech.yahooinc.com,reject
 DOMAIN,adtrack.quark.cn,reject
+DOMAIN,adtracker.adfunlink.com,reject
 DOMAIN,adtracker.medproad.com,reject
 DOMAIN,adui.tg.meitu.com,reject
 DOMAIN,adv-api.shenshiads.com,reject
@@ -337,7 +339,6 @@ DOMAIN,datacollection.uve.weibo.com,reject
 DOMAIN,dc.sigmob.cn,reject
 DOMAIN,de.tynt.com,reject
 DOMAIN,diagnosis.ad.xiaomi.com,reject
-DOMAIN,dig.bdurl.net,reject
 DOMAIN,dlogs.bwton.com,reject
 DOMAIN,dm.toutiao.com,reject
 DOMAIN,domain.aishengji.com,reject
@@ -436,7 +437,6 @@ DOMAIN,ii.gdt.qq.com,reject
 DOMAIN,image-ad.sm.cn,reject
 DOMAIN,image.hpplay.cn,reject
 DOMAIN,images.outbrainimg.com,reject
-DOMAIN,images.pinduoduo.com,reject
 DOMAIN,imdns.hpplay.cn,reject
 DOMAIN,img-c.heytapimage.com,reject
 DOMAIN,img-x.jd.com,reject
@@ -532,7 +532,6 @@ DOMAIN,mapi.m.jd.com,reject
 DOMAIN,masdkv6.3g.qq.com,reject
 DOMAIN,mazu.m.qq.com,reject
 DOMAIN,mbdlog.iqiyi.com,reject
-DOMAIN,mcs.zijieapi.com,reject
 DOMAIN,medproad.com,reject
 DOMAIN,metrics.data.hicloud.com,reject
 DOMAIN,metrics.icloud.com,reject
@@ -892,7 +891,6 @@ DOMAIN,yk-ssp.ad.youku.com,reject
 DOMAIN,ykad-data.cp31.ott.cibntv.net,reject
 DOMAIN,ykad-data.youku.com,reject
 DOMAIN,ykad-gateway.youku.com,reject
-DOMAIN,youku-acs.m.taobao.com,reject
 DOMAIN,ytx-file.110route.cn,reject
 DOMAIN,zeus.ad.xiaomi.com,reject
 DOMAIN,zhihu-web-analytics.zhihu.com,reject
